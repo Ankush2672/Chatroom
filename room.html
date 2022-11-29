@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to chatbot</title>
+    <link rel="stylesheet" href="room.css">
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="chatbot.png" />
+        <button id="leave" type="button">Leave</button>
+    </div>
+
+    <div id="main">
+        <div id="left">
+            <div id ="l1">
+                <span id="s1">Room</span>
+                <span id="s2">Java</span>
+            </div>
+            <div id="l2">
+               
+            </div>
+        </div>
+        <div id="right">
+            <div id="one">
+
+            </div>
+            <div id="two">
+                <input id="message" type="text" placeholder="Write Your Message" />
+                <img id="send" src="send.png" />
+            </div>
+            
+            
+
+           
+        </div>
+    </div>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+    integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
+    crossorigin="anonymous"
+    ></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="room.js"></script>
+</body>
+</html>

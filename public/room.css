@@ -1,0 +1,223 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header
+{
+    display: flex;
+    width: 94vw;
+    height: 8vh;
+    justify-content:space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+}
+
+#logo
+{
+    height: 100%;
+}
+#leave
+{
+    border-radius: 10px;
+    width: 7%;
+    height: 50%;
+    font-weight: bold;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+#leave:hover
+{
+    background-color: white;
+    color: black;
+    width: 8%;
+    height: 52%;
+    font-weight: bolder;
+}
+
+#main
+{
+    margin-top: 1vh;
+    height: 91vh;
+    width: 100vw;
+   display: flex;
+   border-radius: 10px;
+   gap: 0.1%;
+}
+
+#left
+{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(52 127 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#right
+{
+    display: flex;
+    flex-direction: column;
+    width: 74.9%;
+    height: 100%;
+    background-color:rgb(171 50 121);
+    border-radius: 10px;
+}
+#one
+{
+    width: 100%;
+    height: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#two
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+#message
+{
+   
+    width: 87%;
+    height: 50%;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 2%;
+    font-weight: bold;
+    margin-left: 1%;
+    border: 3px solid;
+}
+
+#send
+{
+    height: 50%;
+    margin-left: 2%;
+}
+
+#send:hover
+{
+    height: 58%;
+    cursor: pointer;
+}
+
+#l1
+{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    border: 1px rgb(171 50 121) solid;
+}
+#l2
+{
+    height: 70%;
+    width: 100%;
+}
+
+#s1
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    display: block;
+    margin-top: 5%;
+}
+#s2
+{
+    color: rgb(171 50 121);
+    font-weight: 800;
+    font-size: 3rem;
+    display: block;
+    margin-top: 13%;
+
+}
+
+li
+{
+    list-style: none;
+    padding-left: 8%;
+    font-size: 1.5rem;
+    margin-top: 3%;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px rgb(171 50 121) solid;
+    padding-bottom: 3%;
+    
+}
+.chat
+{
+    margin-top: 2%;
+    padding-left: 4%;
+    background-color: rgb(52 127 255);
+    border-radius: 80px;
+    width: 80%;
+    margin-left: 2%;
+}
+.chat span
+{
+    color: white;
+    padding-right: 60px;
+    font-size: larger;
+    display: inline-block;
+    margin-top: 1%;
+}
+.chat p 
+{
+    color: black;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+
+
+.chat1
+{
+    margin-top: 2%;
+    padding-left: 4%;
+    background-color: #00a884;
+    border-radius: 80px;
+    width: 80%;
+    margin-left: 15%;
+}
+.chat1 span
+{
+    color: white;
+    padding-right: 60px;
+    font-size: larger;
+    display: inline-block;
+    margin-top: 1%;
+}
+.chat1 p 
+{
+    color: black;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+.chat2
+{
+    margin-top: 2%;
+    padding-left: 4%;
+    background-color: rgb(255, 135, 7);
+    border-radius: 80px;
+    width: 80%;
+    margin-left: 2%;
+}
+.chat2 span
+{
+    color: white;
+    padding-right: 60px;
+    font-size: larger;
+    display: inline-block;
+    margin-top: 1%;
+}
+.chat2 p 
+{
+    color: black;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
